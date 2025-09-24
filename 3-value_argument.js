@@ -4,5 +4,5 @@ if (!(args[2])) {
   console.log('No argument');
 } 
  else {
-  console.log(argument_value);
+  console.log(argument_value[2]);
 }
