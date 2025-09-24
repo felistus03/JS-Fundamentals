@@ -1,6 +1,6 @@
-const args = (process.argv.length)-2;
+const args = (process.argv);
 const argument_value=(process.argv);
-if (args === 0) {
+if (!(args[2])) {
   console.log('No argument');
 } 
  else {
